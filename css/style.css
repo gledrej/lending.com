@@ -1,3 +1,37 @@
+
+@media (max-width: 767px) {
+
+}
+@media (min-width: 768px) {
+
+}
+
+
+
+
+
+
+.header_top_bg{
+    background-color: #FFD100;
+}
 .header_images{
     width: 100%;
+}
+.header_tel-icon{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.header_images_tel{
+    width: 100%;
+    padding: 10px;
+}
+.header_tel-number{
+    margin-top: 10px;
+}
+.header_tel-number div{
+    font-size: 18px;
+}
+.header_soc_set img{
+    width: 67%;
+    padding: 15px;
 }
