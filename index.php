@@ -257,11 +257,11 @@
             </div>
             <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
 
-                <div class="col-lg-6 col-md-6 col-xs-6 col-sm-6 block_video">
-                    <iframe width="560" height="330" src="https://www.youtube.com/embed/8yqrF5fMzok" frameborder="0"></iframe>
+                <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 block_video">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/8yqrF5fMzok" frameborder="0"></iframe>
                 </div>
 
-                <div class="col-lg-6 col-md-6 col-xs-6 col-sm-6 block_arrow_text">
+                <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 block_arrow_text">
                     <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
 
                         <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">

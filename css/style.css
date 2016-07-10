@@ -235,8 +235,13 @@
 }
 .block_video {
     padding: 20px;
+    height: 70%;
 
 }
 .block_arrow_text{
     padding: 20px;
+}
+
+.block_arrow_text div{
+    margin-bottom: 10px;
 }
