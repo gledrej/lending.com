@@ -1,14 +1,49 @@
-
-@media (max-width: 767px) {
-
+/* Media queries */
+@media (max-width: 768px) {
+    .header_soc_set img{
+        width: 43%;
+        padding: 15px;
+    }
 }
 @media (min-width: 768px) {
+    .header_soc_set img{
+        width: 65%;
+        padding: 15px;
+    }
+
+
+}
+@media (min-width: 992px) {
+    .header_soc_set img{
+        width: 67%;
+        padding: 15px;
+    }
+
+
+}
+@media (min-width: 1200px) {
+    .header_soc_set img{
+        width: 67%;
+        padding: 15px;
+    }
 
 }
 
 
 
+.block-slaider-img{
+    position: relative;
+}
 
+.block-slaider-text{
+    position: absolute;
+    top:0;
+    height: 100%;
+}
+
+.block-slaider-text img{
+    width: 85%;
+}
 
 
 .header_top_bg{
@@ -23,17 +58,14 @@
 }
 .header_images_tel{
     width: 100%;
-    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .header_tel-number{
     margin-top: 10px;
 }
 .header_tel-number div{
     font-size: 18px;
-}
-.header_soc_set img{
-    width: 67%;
-    padding: 15px;
 }
 
 
