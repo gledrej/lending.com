@@ -198,3 +198,13 @@
 
 
 /* Cod Nasti*/
+.block_video_bg {
+    background-color:#FFD200;
+}
+.block_video {
+    padding: 20px;
+
+}
+.block_arrow_text{
+    padding: 20px;
+}
