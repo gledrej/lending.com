@@ -61,7 +61,7 @@
     <div class="container block-slaider-text">
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-8 col-xs-8 text-center block_slaider_bottom">
-                <a href="#">
+                <a href="#zakaz">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <h4>ЗАКАЗАТЬ СЕЙЧАС</h4>
                     </div>
@@ -113,9 +113,12 @@
 <div class="col-lg-12 col-md-12 hidden-sm hidden-xs  container-fluid header_top_bg block-3 text-center">
     <div class="container">
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">УДОБНЫЙ</div>
-        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">*</div>
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+            <img src="images/star.png">
+        </div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">БЫСТРОНАДУВАЕМЫЙ</div>
-        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">*</div>
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+            <img src="images/star.png"></div>
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">ДИВАН-ГАМАК</div>
     </div>
 </div>
@@ -125,7 +128,7 @@
             <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">На пляже</div>
             <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">В горах</div>
             <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">На даче</div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">В путишествии</div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">В путешествии</div>
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">В парке</div>
         </div>
     </div>
@@ -209,10 +212,10 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 text-center">
-                <div class="col-lg-2 col-md-2 col-xs-2 col-sm-2"><h1>- - -</h1></div>
-                <div class="col-lg-8 col-md-8 col-xs-8 col-sm-8"><h1>Почему Надувной Банан так нравится
+                <div class="col-lg-2 col-md-2 col-xs-2 col-sm-2 text-right"><h1>- - -</h1></div>
+                <div class="col-lg-8 col-md-8 col-xs-8 col-sm-8 text-center"><h1>Почему Надувной Банан так нравится
                         покупателям?</h1></div>
-                <div class="col-lg-2 col-md-2 col-xs-2 col-sm-2"><h1>- - -</h1></div>
+                <div class="col-lg-2 col-md-2 col-xs-2 col-sm-2 text-left"><h1>- - -</h1></div>
 
             </div>
             <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
@@ -315,16 +318,18 @@
     <div class="col-lg-2 col-md-2 col-xs-2 col-sm-2"></div>
     <div class="col-lg-8 col-md-8 col-xs-8 col-sm-8 text-center block-8-title">
     <span>
-     КУПИТЬ ДИВАН - БАНАН ПРОСТО:
+     КУПИТЬ ДИВАН - БАНАН ПРОСТО:<br>
 заполни форму и нажми “ЗАКАЗАТЬ”
     </span>
+        <a name="zakaz"></a>
     </div>
     <div class="col-lg-2 col-md-2 col-xs-2 col-sm-2"></div>
 
     <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 block-8">
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 block-8-forma">
             <form method="post" action="form.php">
-                <div><input class="block-8-forma-input" placeholder="Ваше имя*" type="text" name="name" required/></div>
+
+                <div ><input class="block-8-forma-input" placeholder="Ваше имя*" type="text" name="name" required/></div>
                 <div><input class="block-8-forma-input" placeholder="Ваш телефон*" type="text" name="telephone"
                             required/></div>
 
@@ -339,7 +344,7 @@
                 </div>
 
 
-                <div><input class="block-8-forma-buttom" type="submit" name="telephone" required/></div>
+                <div><input class="block-8-forma-buttom" type="submit" required/></div>
 
             </form>
         </div>
@@ -363,9 +368,9 @@
 <div class="container-fluid block-9">
     <div class="container">
         <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 block-9-title text-center">
-            <div class="col-lg-2 col-md-2 col-xs-2 col-sm-2">---</div>
-            <div class="col-lg-8 col-md-8 col-xs-8 col-sm-8">Как заказать Диван - Банан?</div>
-            <div class="col-lg-2 col-md-2 col-xs-2 col-sm-2">---</div>
+            <div class="col-lg-3 col-md-2 col-xs-2 col-sm-2 text-right">---</div>
+            <div class="col-lg-6 col-md-6 col-xs-6 col-sm-8">Как заказать Диван - Банан?</div>
+            <div class="col-lg-3 col-md-2 col-xs-2 col-sm-2 text-left">---</div>
         </div>
 
 
@@ -455,7 +460,7 @@
                 <div><input class="block-8-forma-input" placeholder="Ваш телефон*" type="text" name="telephone"
                             required/></div>
 
-                <div><input class="block-10-forma-buttom" type="submit" value="ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК" name="telephone" required/></div>
+                <div><input class="block-10-forma-buttom" type="submit" value="ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК" required/></div>
 
             </form>
         </div>
@@ -466,8 +471,46 @@
 
 
 <div class="container-fluid block-11">
-    <div class="container">
-        <img src="images/footer.png">
+    <div class="container footer">
+        <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12 footer_tel-number">
+                    <div class="col-lg-6 col-md-6 col-xs-6 col-sm-6">
+                       <p>+38(094) 94 750 77</p>
+                        <p>+38(094) 94 750 77</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-xs-6 col-sm-6">
+                        <p>+38(094) 94 750 77</p>
+                        <p>+38(094) 94 750 77</p>
+                    </div>
+                    <div class="our_email">
+                        <span><b>Наш email:</b> art-creative@mail.ua</span>
+                    </div>
+                </div>
+
+            <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+                <div >
+                    <p><b>Наш офис:</b></p>
+                    <p>г. Одесса пр-т Гагарина 12А БЦ "Шевченковский" 11этаж, 1105 офис</p>
+                </div>
+
+                <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                    <div class="col-lg-3 col-md-3 col-xs-3 col-sm-3" style="padding-top: 7px;">
+                        <b>Мы в соц.сетях:</b>
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-xs-9 col-sm-9 social_footer">
+                        <div class="col-lg-3 col-md-3 col-xs-3 col-sm-3">
+                            <a href="#"><img src="images/facebook.png" ></a></div>
+                        <div class="col-lg-3 col-md-3 col-xs-3 col-sm-3">
+                            <a href="#"><img src="images/twitter.png"></a></div>
+                        <div class="col-lg-3 col-md-3 col-xs-3 col-sm-3">
+                            <a href="#"><img src="images/instagram.png"></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 text-center copyright">
+            &#169; Copyright 2016 Art&Creative
+        </div>
     </div>
 </div>
 

@@ -86,7 +86,7 @@
     }
 
     .block-5 img {
-        width: 100%;
+        width: 85%;
     }
     .block-4 {
         background-color: #FF7500;
@@ -124,13 +124,15 @@
 }
 
 .header_images_tel {
-    width: 100%;
-    margin-top: 5px;
+    width: 85%;
+    margin-top: 10px;
     margin-bottom: 5px;
+    margin-left: 15px;
 }
 
 .header_tel-number {
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .header_tel-number div {
@@ -167,8 +169,8 @@
 .block-5 p{
     padding-left: 25px;
     line-height: 25px;
-    padding-top: 25px;
-    font-size: 18px;
+    padding-top: 15px;
+    font-size: 17px;
     font-family: Myriad Pro;
 }
 
@@ -268,7 +270,9 @@
     font-family: Myriad Pro;
     margin: 0px 0px;
 }
-
+.block-7-images{
+    margin-bottom: 30px;
+}
 .block-7-images img{
     width: 100%;
 }
@@ -283,6 +287,9 @@
     font-weight: bold;
     font-family: Myriad Pro;
     margin: 15px 0px;
+}
+.block-8-forma{
+    margin-top: 32px;
 }
 .block-8-forma div{
     text-align: center;
@@ -309,9 +316,13 @@
     font-size: 18px;
 }
 
-.form-count{
+
+.form-count {
     width: 45px;
     padding: 5px;
+    text-align: center;
+    color: #1B1A1B;
+    font-weight: bold;
 }
 .color-blue{
     background-color: blue;
@@ -349,6 +360,7 @@
     font-family: Myriad Pro;
     font-size: 27px;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .block-9{
@@ -360,11 +372,12 @@
     color: #000;
     font-weight: bold;
     font-family: Myriad Pro;
-    margin: 20px 0px;
+    margin-top: 30px;
 }
 
 .block-9-punck img{
     width: 20%;
+    margin-bottom: 20px;
 }
 .block-9-punck-strelka{
     margin-left: 10px;
@@ -413,10 +426,25 @@
 }
 
 .block-11{
-    background-color: #FFFF25;
+    background-color: #FFFF00;
+}
+.footer{
+    padding: 20px;
+    color: #040400;
+
+}
+.footer_tel-number p{
+    font-weight: bold;
+    font-family: Myriad Pro;
+    font-size: 20px;
+}
+.our_email{
+
+
 }
 
-.block-11 img{
-    width: 100%;
-    margin: 30px 0;
+.copyright{
+    padding-top: 30px;
+    font-size: 10px;
+
 }
